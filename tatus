@@ -1,0 +1,15 @@
+[33mcommit ba91df53a8c29ae15fc824995877fd30892c7f4d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Khushboo <khushbookhushiii130@gmail.com>
+Date:   Wed Apr 16 14:44:23 2025 +0530
+
+    Add gitattributes
+
+A	.gitattributes
+
+[33mcommit e7634ff9db9c2e157b4323a85c906951ab922da4[m
+Author: Khushboo <khushbookhushiii130@gmail.com>
+Date:   Wed Apr 16 14:44:00 2025 +0530
+
+    Add .gitignore to exclude node_modules
+
+A	.gitignore
