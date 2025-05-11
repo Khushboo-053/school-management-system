@@ -12,6 +12,7 @@ const Sidebar = () => {
     { path: '/schedule', name: 'Schedule', icon: <FaCalendarAlt className="mr-2" /> },
     { path: '/courses', name: 'Courses', icon: <FaBookOpen className="mr-2" /> },
     { path: '/settings', name: 'Settings', icon: <FaCog className="mr-2" /> },
+    {path:'/Events',name:'Events',icon: <FaCalendarAlt className='mr-2'/>},
   ];
 
   return (
@@ -38,7 +39,7 @@ const Sidebar = () => {
           ))}
         </ul>
       </nav>
-      <div className="mt-auto pt-4 border-t border-gray-600 text-sm text-gray-400">
+      <div className="mt-auto pt-4 border-t border-gray-600 text-xl text-gray-400">
         <p className="mb-1">School Management System</p>
         <p>v1.0.0</p>
       </div>
