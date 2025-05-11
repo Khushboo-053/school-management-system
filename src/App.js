@@ -7,7 +7,6 @@ import Teachers from './pages/Teachers/Teachers';
 import Schedule from './pages/Schedule/Schedule';
 import Course from './pages/Courses/Course';
 import SettingsPage from './pages/Settings/SettingsPage';
-import Events from './pages/Events/Events';
 
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
         <Route path="/schedule" element={<Schedule/>}/>
         <Route path="/courses" element={<Course/>}/>
         <Route path='/settings' element={<SettingsPage/>}/>
-       <Route path='/Events' element={<Events/>}/>
+       
       </Routes>
     </Router>
   );
